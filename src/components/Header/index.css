@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-container {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-img {
+  height: 50%;
+}
+
+.logo-para {
+  color: #12022f;
+  font-family: roboto;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.btn-container {
+  color: #551e53;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 30px;
+  list-style: none;
+}
+
+.each-item {
+  margin: 5px;
+  padding: 5px;
+}
